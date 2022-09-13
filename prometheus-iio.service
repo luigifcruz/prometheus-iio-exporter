@@ -7,7 +7,7 @@ After=network-online.target
 User=casper
 Group=casper
 Restart=on-failure
-ExecStart=/home/casper/bin/prometheus
+ExecStart=/home/casper/bin/prometheus-iio-exporter
 KillSignal=SIGTERM
 
 [Install]
