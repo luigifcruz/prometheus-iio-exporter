@@ -1,0 +1,14 @@
+[Unit]
+Description=Prometheus IIO Exporter
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+User=casper
+Group=casper
+Restart=on-failure
+ExecStart=/home/casper/bin/prometheus
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target
