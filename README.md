@@ -2,6 +2,11 @@
 
 This script is made to export IIO sensors values to Prometheus. Originally developed for CASPER's RFSoC. 
 
+<p align="center">
+<img src="example.png" />
+</p>
+
+
 ### Installation
 
 All you need is to download the executable for your machine under GitHub releases. 
